@@ -51,7 +51,7 @@ export default function LandingPage() {
             { text: "Learn More", href: "#services" },
           ]}
           buttonAnimation="slide-up"
-          imageSrc="http://img.b2bpic.net/free-photo/woman-work-office-using-printer_23-2149456923.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/woman-work-office-using-printer_23-2149456923.jpg?_wi=1"
           imageAlt="Professional xerox and printing services"
           mediaAnimation="opacity"
         />
@@ -70,7 +70,7 @@ export default function LandingPage() {
               id: 1,
               title: "High-Quality Xerox & Printing",              description:
                 "Professional photocopying and color/black-and-white printing with sharp, vibrant results. Fast turnaround times for bulk orders.",              imageSrc:
-                "http://img.b2bpic.net/free-photo/woman-work-office-using-printer_23-2149456923.jpg",              imageAlt: "Xerox and printing services"},
+                "http://img.b2bpic.net/free-photo/woman-work-office-using-printer_23-2149456923.jpg?_wi=2",              imageAlt: "Xerox and printing services"},
             {
               id: 2,
               title: "T-Shirt & Custom Printing",              description:
@@ -133,16 +133,16 @@ export default function LandingPage() {
           testimonials={[
             {
               id: "1",              name: "Rajesh Kumar",              imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",              imageAlt: "Rajesh Kumar"},
+                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=1",              imageAlt: "Rajesh Kumar"},
             {
               id: "2",              name: "Priya Patel",              imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",              imageAlt: "Priya Patel"},
+                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=2",              imageAlt: "Priya Patel"},
             {
               id: "3",              name: "Amit Singh",              imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",              imageAlt: "Amit Singh"},
+                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=3",              imageAlt: "Amit Singh"},
             {
               id: "4",              name: "Meera Desai",              imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",              imageAlt: "Meera Desai"},
+                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=4",              imageAlt: "Meera Desai"},
           ]}
           cardTitle="Over 1000 customers trust Nitin Auto Xerox for fast, reliable printing and xerox services"
           cardTag="Customer Testimonials"
