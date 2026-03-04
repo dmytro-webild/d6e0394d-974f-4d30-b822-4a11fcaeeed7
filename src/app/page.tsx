@@ -54,7 +54,6 @@ export default function LandingPage() {
           imageSrc="http://img.b2bpic.net/free-photo/woman-work-office-using-printer_23-2149456923.jpg"
           imageAlt="Professional xerox and printing services"
           mediaAnimation="opacity"
-          useInvertedBackground={false}
         />
       </div>
 
