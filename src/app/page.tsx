@@ -2,14 +2,14 @@
 
 import { BarChart3, Layers, MapPin, Phone, Star, Zap } from "lucide-react";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
-import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloatingInline";
-import HeroBillboard from "@/components/sections/hero/HeroBillboard";
-import FeatureCardSeven from "@/components/sections/feature/FeatureCardSeven";
-import MediaAbout from "@/components/sections/about/MediaAbout";
-import MetricCardTwo from "@/components/sections/metrics/MetricCardTwo";
-import TestimonialCardTwelve from "@/components/sections/testimonial/TestimonialCardTwelve";
-import ContactSplit from "@/components/sections/contact/ContactSplit";
-import FooterMedia from "@/components/sections/footer/FooterMedia";
+import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
+import HeroBillboard from '@/components/sections/hero/HeroBillboard';
+import FeatureCardSeven from '@/components/sections/feature/FeatureCardSeven';
+import MediaAbout from '@/components/sections/about/MediaAbout';
+import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
+import TestimonialCardTwelve from '@/components/sections/testimonial/TestimonialCardTwelve';
+import ContactSplit from '@/components/sections/contact/ContactSplit';
+import FooterMedia from '@/components/sections/footer/FooterMedia';
 
 export default function LandingPage() {
   return (
@@ -42,7 +42,7 @@ export default function LandingPage() {
         <HeroBillboard
           title="Fast, Reliable Xerox & Printing in Bhavnagar"
           description="High-quality printing, T-shirt printing, and stationery services with quick turnaround times and affordable pricing. Open daily until 9:30 PM. Located in Nirmal Nagar for your convenience."
-          background={{ variant: "circleGradient" }}
+          background={{ variant: "sparkles-gradient" }}
           tag="Quick Turnaround"
           tagIcon={Zap}
           tagAnimation="slide-up"
@@ -51,7 +51,7 @@ export default function LandingPage() {
             { text: "Learn More", href: "#services" },
           ]}
           buttonAnimation="slide-up"
-          imageSrc="http://img.b2bpic.net/free-photo/woman-work-office-using-printer_23-2149456923.jpg?_wi=1"
+          imageSrc="http://img.b2bpic.net/free-photo/woman-work-office-using-printer_23-2149456923.jpg"
           imageAlt="Professional xerox and printing services"
           mediaAnimation="opacity"
           useInvertedBackground={false}
@@ -71,7 +71,7 @@ export default function LandingPage() {
               id: 1,
               title: "High-Quality Xerox & Printing",              description:
                 "Professional photocopying and color/black-and-white printing with sharp, vibrant results. Fast turnaround times for bulk orders.",              imageSrc:
-                "http://img.b2bpic.net/free-photo/woman-work-office-using-printer_23-2149456923.jpg?_wi=2",              imageAlt: "Xerox and printing services"},
+                "http://img.b2bpic.net/free-photo/woman-work-office-using-printer_23-2149456923.jpg",              imageAlt: "Xerox and printing services"},
             {
               id: 2,
               title: "T-Shirt & Custom Printing",              description:
@@ -134,16 +134,16 @@ export default function LandingPage() {
           testimonials={[
             {
               id: "1",              name: "Rajesh Kumar",              imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=1",              imageAlt: "Rajesh Kumar"},
+                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",              imageAlt: "Rajesh Kumar"},
             {
               id: "2",              name: "Priya Patel",              imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=2",              imageAlt: "Priya Patel"},
+                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",              imageAlt: "Priya Patel"},
             {
               id: "3",              name: "Amit Singh",              imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=3",              imageAlt: "Amit Singh"},
+                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",              imageAlt: "Amit Singh"},
             {
               id: "4",              name: "Meera Desai",              imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=4",              imageAlt: "Meera Desai"},
+                "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",              imageAlt: "Meera Desai"},
           ]}
           cardTitle="Over 1000 customers trust Nitin Auto Xerox for fast, reliable printing and xerox services"
           cardTag="Customer Testimonials"
@@ -160,7 +160,7 @@ export default function LandingPage() {
           description="Call us today or visit our store in Nirmal Nagar, Bhavnagar. We're open daily until 9:30 PM and ready to help with all your printing needs."
           tagIcon={Phone}
           tagAnimation="slide-up"
-          background={{ variant: "circleGradient" }}
+          background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
           imageSrc="http://img.b2bpic.net/free-photo/young-beautiful-female-support-phone-operator-speaking-consulting-office_176420-952.jpg"
           imageAlt="Contact Nitin Auto Xerox"
